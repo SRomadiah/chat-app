@@ -2,8 +2,8 @@ import React from "react";
 import cam from "../img/cam.png";
 import add from "../img/add.png";
 import more from "../img/more.png";
-import Messages from "../Components/Messages";
-import Input from "../Components/Input";
+import Messages from "./Messages";
+import Input from "./Input";
 
 const Chat = () => {
   return (

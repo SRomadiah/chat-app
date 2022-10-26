@@ -4,16 +4,13 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import "./index.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// Ni panggil juga, kalo gak dipanggil ya error dia
 import { AuthContext } from "./context/AuthContext";
 
 const App = () => {
   const { currentUser } = useContext(AuthContext);
-
-  console.log(currentUser);
   return (
-    // <Register />
-    // <Login />
-    // <Home />
     <BrowserRouter>
       <Routes>
         <Route path="/">
